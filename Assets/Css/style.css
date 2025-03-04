@@ -3,11 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --theme-black: #040b14;
+    --theme-blue:#149DDD;
+    --theme-white:#ffff;
+    --theme-light:#292f37;
+}
 img{
     display: block;
 }
 header{
-    background-color: #040b14;
+    background-color: var(--theme-black);
     width: 300px;
 }
 header .pf-img img{
@@ -16,4 +22,30 @@ header .pf-img img{
 }
 header .social-icon ul li a{
     background-color: #161c25;
+    transition: all .3s ease-in !important;
+}
+header nav ul li:hover{
+    background-color: #292f3774 !important;
+    border-radius: 20px;
+}
+header .social-icon ul li a:hover{
+    background-color: var(--theme-blue) !important;
+}
+header nav ul li a:hover{
+    color: var(--theme-white) !important;
+}
+header nav ul li a:hover i{
+    color: var(--theme-blue);
+}
+
+main{
+    width: calc(100% - 300px);
+    margin-left: auto;
+}
+main .hero .hero-img{
+    background-image: url('../Images/hero-bg\ \(1\).jpg');
+    background-color: #040b144c;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+    background-size: cover;
 }
