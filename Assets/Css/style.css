@@ -11,6 +11,7 @@
 }
 img{
     display: block;
+    max-width: 100%;
 }
 header{
     background-color: var(--theme-black);
@@ -48,4 +49,22 @@ main .hero .hero-img{
     background-repeat: no-repeat;
     background-blend-mode: color-burn;
     background-size: cover;
+}
+
+.about .about-header h2::before{
+    content: '';
+    height: 3px;
+    position: absolute;
+    background-color: var(--theme-blue);
+    width: 60px;
+    bottom: 0;
+}
+.about .about-content .about-details ul li i{
+    color: var(--theme-blue);
+    font-size: 15px;
+}
+
+.about .count i{
+    font-size: 40px;
+    color: #149DDD;
 }
