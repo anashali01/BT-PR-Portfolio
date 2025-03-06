@@ -13,6 +13,7 @@ img{
     display: block;
     max-width: 100%;
 }
+/* H   E   D   E   R       S   T   A   R   T  */
 header{
     background-color: var(--theme-black);
     width: 300px;
@@ -38,11 +39,15 @@ header nav ul li a:hover{
 header nav ul li a:hover i{
     color: var(--theme-blue);
 }
+/* H   E   D   E   R       E   N   D  */
 
+/* M   A   I   N      S   T   A   R   T  */
 main{
     width: calc(100% - 300px);
     margin-left: auto;
 }
+
+/* H   E   R   O   -  S   E   C   T   I   O   N       S   T   A   R   T  */
 main .hero .hero-img{
     background-image: url('../Images/hero-bg\ \(1\).jpg');
     background-color: #040b144c;
@@ -50,7 +55,9 @@ main .hero .hero-img{
     background-blend-mode: color-burn;
     background-size: cover;
 }
+/* H   E   R   O   -  S   E   C   T   I   O   N       E   N   D  */
 
+/* A   B   O   U    T   -  S   E   C   T   I   O   N       S   T   A   R   T  */
 .about .about-header h2::before{
     content: '';
     height: 3px;
@@ -68,3 +75,4 @@ main .hero .hero-img{
     font-size: 40px;
     color: #149DDD;
 }
+/* A   B   O   U    T   -  S   E   C   T   I   O   N       E    N    D  */
