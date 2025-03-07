@@ -13,6 +13,9 @@ img{
     display: block;
     max-width: 100%;
 }
+a{
+    text-decoration: none;
+}
 /* H   E   D   E   R       S   T   A   R   T  */
 header{
     background-color: var(--theme-black);
@@ -60,7 +63,8 @@ main .hero .hero-img{
 /* A   B   O   U    T   -  S   E   C   T   I   O   N       S   T   A   R   T  */
 .about .about-header h2::before,
 .skills .skills-header h2::before,
-.resume .resume-header h2::before{
+.resume .resume-header h2::before,
+.portfolio .portfolio-header h2::before{
     content: '';
     height: 3px;
     position: absolute;
