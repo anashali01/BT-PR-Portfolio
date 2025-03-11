@@ -124,3 +124,81 @@ main .hero .hero-img{
 .portfolio .portfolio-content:hover  .portfolio-overlay{
     opacity: 1;
 }
+
+.service .service-count .count i{
+    width: 60px;
+    height: 60px;
+    background: var(--theme-blue);
+    font-size: 24px;
+    color: var(--theme-white);
+    padding: 15px;
+    transition: 0.5s;
+}
+
+.service .service-count .count:hover i{
+    background-color: var(--theme-white);
+    border: 1px solid var(--theme-blue);
+    color: var(--theme-bg-blue);
+}
+
+.service .service-count .count .service-count-content h4 a{
+    color: var(--theme-black);
+    transition: all .3s ease-in-out;
+}
+
+.service .service-count .count:hover .service-count-content h4 a{
+    color: var(--theme-blue);
+}
+
+/* testimonial start  */
+.test-content{
+    text-align: justify;
+    padding: 10px 20px;
+}
+/* testimonial end  */
+
+/* Contact section's CSS start */
+
+.contact .info-box-item{
+    margin-bottom: 40px;
+}
+.contact .info-box-item i{
+    font-size: 20px;
+    color: #149ddd;
+    background-color: rgba(20, 157, 221, 0.08);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+
+.contact .info-content h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contact .info-content p{
+    font-size: 14px;
+}
+
+.contact .info-box-item:hover i{
+    background-color: #149DDD;
+    color: white;
+}
+/* Contact section's CSS end */
+
+/* footer section's CSS start */
+footer {
+    width: calc(100% - 300px);
+    margin: 0 auto;  
+}
+
+footer .copy-right p,
+footer .designed-by p{
+    font-size: 14px
+}
+/* footer section's CSS end */
