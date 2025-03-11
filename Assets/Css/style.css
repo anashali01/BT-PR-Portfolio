@@ -42,6 +42,13 @@ header nav ul li a:hover{
 header nav ul li a:hover i{
     color: var(--theme-blue);
 }
+.nav-pills .nav-link.active{
+    background-color: #292f3774 !important;
+    border-radius: 20px;
+}
+.nav-pills .nav-link.active i{
+    color: var(--theme-blue);
+}
 /* H   E   D   E   R       E   N   D  */
 
 /* M   A   I   N      S   T   A   R   T  */

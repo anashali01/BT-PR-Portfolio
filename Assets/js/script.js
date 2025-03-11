@@ -1,4 +1,4 @@
-
+// APP - 1
 document.addEventListener("DOMContentLoaded", function () {
   var carousel = document.querySelector("#carouselExample");
   var nextButton = carousel.querySelector(".carousel-control-next");
@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
   prevButton.style.display = "none";
 });
 
+// PRODUCT - 1
 document.addEventListener("DOMContentLoaded", function () {
   var carousel = document.querySelector("#carouselExample2");
   var nextButton = carousel.querySelector(".carousel-control-next");
@@ -57,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
   prevButton.style.display = "none";
 });
 
+// BRANDING - 1
 document.addEventListener("DOMContentLoaded", function () {
   var carousel = document.querySelector("#carouselExample3");
   var nextButton = carousel.querySelector(".carousel-control-next");
@@ -85,6 +87,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initially hide prev button on first image load
   prevButton.style.display = "none";
 });
+
+// BOOK-1
 document.addEventListener("DOMContentLoaded", function () {
   var carousel = document.querySelector("#carouselExample4");
   var nextButton = carousel.querySelector(".carousel-control-next");
@@ -113,6 +117,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initially hide prev button on first image load
   prevButton.style.display = "none";
 });
+
+// APP - 2
 document.addEventListener("DOMContentLoaded", function () {
   var carousel = document.querySelector("#carouselExample5");
   var nextButton = carousel.querySelector(".carousel-control-next");
@@ -141,6 +147,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initially hide prev button on first image load
   prevButton.style.display = "none";
 });
+
+// PRODUCT - 2
 document.addEventListener("DOMContentLoaded", function () {
   var carousel = document.querySelector("#carouselExample6");
   var nextButton = carousel.querySelector(".carousel-control-next");
@@ -169,6 +177,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initially hide prev button on first image load
   prevButton.style.display = "none";
 });
+
+// BRANDING - 2
 document.addEventListener("DOMContentLoaded", function () {
   var carousel = document.querySelector("#carouselExample7");
   var nextButton = carousel.querySelector(".carousel-control-next");
@@ -197,6 +207,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initially hide prev button on first image load
   prevButton.style.display = "none";
 });
+
+// BOOK - 2
 document.addEventListener("DOMContentLoaded", function () {
   var carousel = document.querySelector("#carouselExample8");
   var nextButton = carousel.querySelector(".carousel-control-next");
@@ -225,6 +237,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initially hide prev button on first image load
   prevButton.style.display = "none";
 });
+
+// APP - 3
 document.addEventListener("DOMContentLoaded", function () {
   var carousel = document.querySelector("#carouselExample9");
   var nextButton = carousel.querySelector(".carousel-control-next");
@@ -253,6 +267,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initially hide prev button on first image load
   prevButton.style.display = "none";
 });
+
+// PRODUCT - 3
 document.addEventListener("DOMContentLoaded", function () {
   var carousel = document.querySelector("#carouselExample10");
   var nextButton = carousel.querySelector(".carousel-control-next");
@@ -281,6 +297,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initially hide prev button on first image load
   prevButton.style.display = "none";
 });
+
+// BRANDING - 3
 document.addEventListener("DOMContentLoaded", function () {
   var carousel = document.querySelector("#carouselExample11");
   var nextButton = carousel.querySelector(".carousel-control-next");
@@ -309,6 +327,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initially hide prev button on first image load
   prevButton.style.display = "none";
 });
+
+// BOOK - 3
 document.addEventListener("DOMContentLoaded", function () {
   var carousel = document.querySelector("#carouselExample12");
   var nextButton = carousel.querySelector(".carousel-control-next");
