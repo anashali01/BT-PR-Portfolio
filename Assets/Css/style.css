@@ -99,3 +99,21 @@ main .hero .hero-img{
     position: absolute;
     transform: translateX(-50%);
 }
+
+.portfolio .portfolio-content{
+    overflow: hidden;
+}
+.portfolio .portfolio-content img{
+    transition: all 0.3s ease-in-out;
+}
+.portfolio .portfolio-content:hover img{
+    transform: scale(1.2);
+}
+
+.portfolio .portfolio-content .portfolio-overlay{
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.portfolio .portfolio-content:hover  .portfolio-overlay{
+    opacity: 1;
+}
