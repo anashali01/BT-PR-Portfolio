@@ -177,10 +177,6 @@ main .hero .hero-img{
     background-color: rgba(20, 157, 221, 0.08);
     width: 44px;
     height: 44px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-right: 15px;
     transition: all 0.3s ease;
 }
