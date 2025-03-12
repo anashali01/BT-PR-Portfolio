@@ -16,7 +16,7 @@ img{
 a{
     text-decoration: none;
 }
-/* H   E   D   E   R       S   T   A   R   T  */
+/* HEADER  START  */
 header{
     background-color: var(--theme-black);
     width: 300px;
@@ -49,15 +49,15 @@ header nav ul li a:hover i{
 .nav-pills .nav-link.active i{
     color: var(--theme-blue);
 }
-/* H   E   D   E   R       E   N   D  */
+/* HEADER  END  */
 
-/* M   A   I   N      S   T   A   R   T  */
+/* MAIN  START  */
 main{
     width: calc(100% - 300px);
     margin-left: auto;
 }
 
-/* H   E   R   O   -  S   E   C   T   I   O   N       S   T   A   R   T  */
+/* HERO  -  SECTION   START  */
 main .hero .hero-img{
     background-image: url('../Images/hero-bg\ \(1\).jpg');
     background-color: #040b144c;
@@ -65,9 +65,9 @@ main .hero .hero-img{
     background-blend-mode: color-burn;
     background-size: cover;
 }
-/* H   E   R   O   -  S   E   C   T   I   O   N       E   N   D  */
+/* HERO  - SECTION  END  */
 
-/* A   B   O   U    T   -  S   E   C   T   I   O   N       S   T   A   R   T  */
+/* ABOUT  - SECTION   START  */
 .about .about-header h2::before,
 .skills .skills-header h2::before,
 .resume .resume-header h2::before,
@@ -88,12 +88,15 @@ main .hero .hero-img{
     font-size: 40px;
     color: #149DDD;
 }
-/* A   B   O   U    T   -  S   E   C   T   I   O   N       E    N    D  */
+/* ABOUT - SECTION   END  */
 
+/* SKILL   -  SECTION  START  */
 .skills .progress-bar{
     background-color: #149DDD;
 }
+/* SKILL   -  SECTION  END   */
 
+/* RESUME  - SECTION  START  */
 .resume .resume-details::before{
     content: '';
     top: 0;
@@ -106,7 +109,9 @@ main .hero .hero-img{
     position: absolute;
     transform: translateX(-50%);
 }
+/* RESUME  - SECTION   END  */
 
+/* PORTFOLIO - SECTION START  */
 .portfolio .portfolio-content{
     overflow: hidden;
 }
@@ -124,7 +129,9 @@ main .hero .hero-img{
 .portfolio .portfolio-content:hover  .portfolio-overlay{
     opacity: 1;
 }
+/* PORTFOLIO - SECTION END  */
 
+/* SERVICE - SECTION START  */
 .service .service-count .count i{
     width: 60px;
     height: 60px;
@@ -149,15 +156,16 @@ main .hero .hero-img{
 .service .service-count .count:hover .service-count-content h4 a{
     color: var(--theme-blue);
 }
+/* SERVICE - SECTION END */
 
-/* testimonial start  */
+/*TESTIMONIAL - SECTION START  */
 .test-content{
     text-align: justify;
     padding: 10px 20px;
 }
-/* testimonial end  */
+/* TESTIMONIAL - SECTION END */
 
-/* Contact section's CSS start */
+/*CONTACT - SECTION START-*/
 
 .contact .info-box-item{
     margin-bottom: 40px;
@@ -189,16 +197,15 @@ main .hero .hero-img{
     background-color: #149DDD;
     color: white;
 }
-/* Contact section's CSS end */
+/*CONTACT - SECTION END-*/
 
-/* footer section's CSS start */
+/* FOOTER - SECTION START */
 footer {
-    width: calc(100% - 300px);
-    margin: 0 auto;  
+    background-color: #f4fafd;
 }
 
 footer .copy-right p,
 footer .designed-by p{
     font-size: 14px
 }
-/* footer section's CSS end */
+/* FOOTER - SECTION END*/
