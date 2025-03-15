@@ -44,12 +44,15 @@ header nav ul li a:hover i{
     color: var(--theme-blue);
 }
 .nav-pills .nav-link.active{
-    background-color: #292f3774 !important;
+    background-color: #ffffff09;
+    color: white !important;
     border-radius: 20px;
 }
+
 .nav-pills .nav-link.active i{
-    color: var(--theme-blue);
+    color: #149ddd;
 }
+
 /* HEADER  END  */
 
 /* MAIN  START  */
